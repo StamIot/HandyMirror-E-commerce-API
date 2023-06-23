@@ -1,0 +1,3 @@
+framework:
+    mailer:
+        dsn: 'smtp://handymirrorproject@gmail.com:yfiqyrzmozgriqpz@smtp.gmail.com:587?encryption=ssl&auth_mode=login'

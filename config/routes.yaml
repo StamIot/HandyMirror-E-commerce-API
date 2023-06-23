@@ -3,3 +3,9 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+send_email:
+    path: /send-email
+    controller: App\Controller\MailController::sendEmail
+confirm_account:
+    path: /confirm-account/{token}
+    controller: App\Controller\AccountConfirmationController::confirmAccount
